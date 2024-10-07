@@ -1,0 +1,180 @@
+
+.printInvoiceContainer .companyName {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.printInvoiceContainer .phoneNum {}
+
+.printInvoiceContainer .email {}
+
+#Invoice{
+    /* display: none; */
+}
+
+/* .printInvoiceContainer .header {
+    position: absolute;
+    top: 1cm;
+} */
+
+.printInvoiceContainer h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #948fe3;
+    margin-top: 2cm;
+}
+
+.printInvoiceContainer .floatText1 {
+    margin-bottom: 10px;
+    
+}
+
+.printInvoiceContainer .billTo {
+    float: left;
+}
+
+.printInvoiceContainer .invoiceNo {
+    float: right;
+}
+
+.printInvoiceContainer .floatText2 {
+    margin-bottom: 40px;
+    
+}
+
+.printInvoiceContainer .companyAddress {
+    float: left;
+}
+.printInvoiceContainer .customer-phone{
+    
+    float: left;
+}
+
+.printInvoiceContainer .date {
+    float: right;
+}
+
+.printInvoiceContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.printInvoiceContainer th,
+.printInvoiceContainer td {
+    padding: 8px;
+    text-align: end;
+
+}
+
+.printInvoiceContainer th {
+    background-color: #948fe3 !important;
+    color: white;
+}
+.printInvoiceContainer tfoot{
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+  }
+
+.printInvoiceContainer .rightAlign {
+    text-align: end;
+}
+
+tr.printInvoiceContainer .highlighted-row {
+    border-top: 1px solid gray !important;
+    border-bottom: 1px solid gray !important;
+    font-weight: bold;
+}
+
+.printInvoiceContainer .table-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top:8px ;
+    position: relative;
+    background-color: white;
+}
+
+.printInvoiceContainer .custom-table-container {
+    display: flex;
+    width: 100%;
+    /* gap: 2px; */
+}
+
+.printInvoiceContainer .custom-first-table {
+    width: 65%;
+    margin-right: -22px;
+    position: relative;
+    left: -65px;
+    color: #747474 !important;
+    /* border:5px solid green; */
+}
+
+.printInvoiceContainer .custom-first-table td {
+    padding: 8px;
+    text-align: left;
+    width: 50px;
+}
+
+.printInvoiceContainer .custom-first-alternate-row {
+    background-color: #f7f7f7 !important;
+}
+
+.printInvoiceContainer .custom-second-table {
+    position: relative;
+    left: 50px;
+    width: 48%;
+    
+    
+
+}
+
+.printInvoiceContainer .custom-second-table td {
+
+    padding: 8px;
+    text-align: start;
+}
+
+.printInvoiceContainer .custom-second-highlighted-row {
+    background-color: #948fe3 !important;
+    color: white !important;
+}
+
+.printInvoiceContainer .custom-second-bottom-outline-row {
+    border-bottom: 1px solid gray !important;
+}
+
+.printInvoiceContainer .signatureSpace1 {
+    color: #2c4c54;
+    margin-left: 52%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.printInvoiceContainer .signatureSpace2 {
+    margin-left: 52%;
+    text-align: center;
+    margin-top: 100px;
+}
+/* #printbtn{
+    margin:10px 0px;
+        border: 1px solid black;
+        width: 50px;
+        height: 20px;
+        padding: 2px;
+        border-radius: 2px;
+        background-color: blue;
+        color: white;
+  } */
+/* ----------------------------------------------------------- */
+
+.printInvoiceContainer .footer{
+    border: 2px solid;
+    width: 99%;
+    height: 40px;
+}
+.printInvoiceContainer .footer p{
+    
+    padding: 11px;
+}
+
+    

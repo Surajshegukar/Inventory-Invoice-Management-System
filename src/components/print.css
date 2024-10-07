@@ -1,0 +1,35 @@
+@media print and (color) {
+    *{
+      -print-color-adjust: exact !important;
+      -webkit-print-color-adjust: exact;
+      color-adjust: exact !important;
+    }
+    body * {
+      visibility: hidden;
+      
+    }
+    body{
+      background-color: white;
+    }
+  
+    #Invoice,
+    #Invoice * {
+      
+      visibility: visible;
+    }
+  
+    #Invoice{
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+    }
+    #inputs{
+        /* opacity: 0; */
+        display: none;
+    }
+    .table-wrapper{
+        width:80%;
+    }
+  
+  }
